@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+h1{
+    font-size: 56px;
+    margin-top: 20px;
+}
+h2{
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 28px;
+    color: rgb(29, 29, 29);
+    margin-top: 40px;
+}
+
+.hero-section p{
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.text-color{
+    color: rgb(174, 0, 255);
+}
+.hero-section{
+    display: flex;
+    margin-top: 100px;
+    background-image: url(img/bg1.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 88%;
+}
+.half{
+    width: 50%;
+    margin-left: 100px;
+}
+.half img{
+    width: 400px;
+    margin-left: 110px;
+}
