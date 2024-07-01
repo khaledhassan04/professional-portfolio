@@ -96,12 +96,24 @@ h3 {
     width: 100px;
 
 }
-
+.main-work{
+background-color: rgba(235, 235, 235, 0.233);
+}
 .main-work h1{
 text-align: left;
 margin-top: 20px;
 font-size: 42px;
 
+
+}
+.Top-itme{
+    display: flex;
+    padding-top: 60px;
+}
+.btn-view{
+    margin-top: 30px;
+    margin-left: 61%;  
+    text-decoration: none;
 }
 .works-item{
     display: flex;
@@ -115,6 +127,9 @@ font-size: 42px;
     margin-left: 20px;
 }
 
+.works{
+    padding-bottom: 80px;
+}
 .text h4{
     font-size: 24px;
     margin-bottom: 12px;
