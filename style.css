@@ -30,6 +30,11 @@ h3 {
     border-radius: 8px;
     font-weight: 600;
 }
+.btn:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
 .text-color{
     color: rgb(174, 0, 255);
 }
@@ -144,14 +149,18 @@ font-size: 42px;
     font-size: 16px;
     margin-bottom: 16px;
 }
-.text .btn-small{
+.btn-small{
     text-decoration: none;
     background-color: rgba(137, 43, 226, 0.329);
     color: rgb(0, 0, 0);
     padding: 6px 16px;
     border-radius: 5px;
 }
-
+.btn-small:hover{
+    background-color: black;
+    color: white;
+    transition: .9s;
+}
 .heading{
     margin-left: 100px;
 }
@@ -235,7 +244,7 @@ font-size: 42px;
 .contact-item{
     margin-left: 100px;
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     border: 1px solid rgba(137, 43, 226, 0.096);
     border-radius: 10px;
     background-color: rgba(182, 119, 241, 0.103);
