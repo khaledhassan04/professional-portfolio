@@ -152,7 +152,7 @@ font-size: 42px;
     border-radius: 5px;
 }
 
-.heading-tools{
+.heading{
     margin-left: 100px;
 }
 
@@ -183,4 +183,48 @@ font-size: 42px;
 .tools{
     margin-bottom: 100px;
 }
+.flexible-content{
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.336);
+    border: 1px solid rgb(238, 236, 238);
+    border-radius: 10px;
+    margin: 100px;
+    padding: 40px;
+}
 
+.flexible-content img{
+    width: 500px;
+    margin-left: 150px;
+}
+.content{
+    display: flex;
+    
+}
+.content img{
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+.rating-area{
+    width: 100%;
+    margin-left: 24px;
+    
+}
+
+.rating-area h3{
+    margin-top: 0px;
+    color: rgb(104, 98, 110);
+}
+
+.rating-area h6{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.rating-area p{
+    margin-top: 10px;
+    margin-bottom: 230px;
+    font-size: 16px;
+    color: #000000;
+}
