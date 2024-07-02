@@ -228,3 +228,41 @@ font-size: 42px;
     font-size: 16px;
     color: #000000;
 }
+.contact-info{
+    display: flex;
+}
+
+.contact-item{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border: 1px solid rgba(137, 43, 226, 0.096);
+    border-radius: 10px;
+    background-color: rgba(182, 119, 241, 0.103);
+    width: 33%;
+    padding: 40px;
+    text-align: center;
+    
+}  
+.emil{
+    margin-right: 100px;
+}
+
+.contact-item img{
+ width: 60px;
+}
+
+.contact-item h3{
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: rgb(103, 70, 122);
+}
+.contact-item p{
+    margin-top: 6px;
+    color: rgb(27, 18, 36);
+}
+ footer p{
+    text-align: center;
+    background-color: rgb(250, 244, 255);
+    padding: 16px;
+ }
