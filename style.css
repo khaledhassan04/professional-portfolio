@@ -97,7 +97,7 @@ h3 {
 
 }
 .main-work{
-background-color: rgba(235, 235, 235, 0.233);
+background-color: rgba(235, 235, 235, 0.082);
 }
 .main-work h1{
 text-align: left;
@@ -151,3 +151,36 @@ font-size: 42px;
     padding: 6px 16px;
     border-radius: 5px;
 }
+
+.heading-tools{
+    margin-left: 100px;
+}
+
+.tools .item-4{
+    display: flex;
+    margin-right: 100px;
+}
+
+.tools-item{
+    width: 25%;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: rgba(246, 225, 255, 0.582);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tools-item img{
+    width: 120px;
+}
+
+.tools-item h4{
+    font-size: 28px;
+    color: rgb(104, 98, 110);
+    margin-top: 20px;
+}
+.tools{
+    margin-bottom: 100px;
+}
+
